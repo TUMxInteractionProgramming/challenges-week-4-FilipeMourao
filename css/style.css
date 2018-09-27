@@ -125,8 +125,10 @@ li {
 li .channel-meta {
     /* #5 #channels right-align channel-meta #icons absolute = relative to li */
     position: absolute;
-    right: 16px;
+    right: 15px;
     top: 12px;
+    display: flex;
+    align-items: center;
 }
 
 li img {
@@ -297,10 +299,15 @@ i {
     font-style: normal;
 }
 .blueBox{
-    width: 5px;
-    height: 5px;
+    width: 50px;
+    height: 10px;
+    margin: 3px;
     padding: 3px;
-    border: 1px solid #3F51B5;
+    border: 2px solid #3F51B5;
     background-color: #3F51B5;
     color: white;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    line-height: 10px;
 }

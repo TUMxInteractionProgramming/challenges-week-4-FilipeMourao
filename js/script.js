@@ -80,6 +80,7 @@ function star(id, object) {
    var name = $('#channel-name').html();
    var className;
 
+
    object.starred ?  object.starred = false : object.starred = true;
    
    $( id )
@@ -193,7 +194,9 @@ function formatDate(date) {
     '<span class="channel-meta">'+
         '<i id="'+iconStarId+'" class= '+ '"'+ starClass + '"'+ ' onclick=" '+
          'star(  ' + idStar + ',' + objectName + ')" ></i>' +
-        '<i class="fas fa-chevron-right"></i>' + 
+         '<span class = "blueBox"> '+ channelObject.expiresIn  +' min</span>'+
+         '<span class = "blueBox"> '+ channelObject.messageCount +' new</span>'+
+        '<i class="fas fa-chevron-right fa-2x"></i>' + 
     '</span> </li>';
     console.log(htmlString);
     
