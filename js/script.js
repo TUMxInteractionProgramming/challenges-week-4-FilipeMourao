@@ -136,7 +136,7 @@ function toggleEmojis() {
 function sendMessage(id){
     var text = $(id).val();
     $(id).val('');
-    text = "Hello Chatter";
+ //   text = "Hello Chatter";
     message = new Message(text);
     $('#messages ').append(createMessageElement(message));
 
