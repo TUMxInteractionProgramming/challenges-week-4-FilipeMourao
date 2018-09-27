@@ -270,3 +270,37 @@ li.selected {
 .message.own {
     margin-left: 17.5%;
 }
+/* NEW STYLES*/
+
+i {
+    font-size: 24px;
+} 
+#tab-bar i {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto 4px auto;
+    
+}
+#chat-bar i {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto 4px auto;
+    
+}
+#channel-star{
+    font-size: 22px;
+}
+#messageText{
+    flex: auto;
+    border: none;
+    font-size: larger;
+    font-style: normal;
+}
+.blueBox{
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border: 1px solid #3F51B5;
+    background-color: #3F51B5;
+    color: white;
+}
